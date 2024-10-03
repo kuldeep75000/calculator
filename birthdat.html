@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Card</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #ffcc00;
+    padding: 20px;
+}
+
+.card-header img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-body .message {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon.facebook {
+    background-color: #3b5998;
+}
+
+.social-icon.twitter {
+    background-color: #1da1f2;
+}
+
+.social-icon.instagram {
+    background-color: #e1306c;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+</style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <img id="birthdayImage" src="rohit4.jpg" alt="Birthday Person">
+        </div>
+        <div class="card-body">
+            <h1 id="birthdayName">  ROHIT SHARMA </h1>
+            <p class="message">Wishing you all the happiness and joy on your special day. May your year ahead be filled with love, success, and great memories.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rohit-sharma-83b32a293" target="_blank" class="social-icon facebook">LinkedIn</a>
+                <a href="pandit-rohit" target="_blank" class="social-icon twitter">GitHub</a>
+                
+            </div>
+        </div>
+    </div>
+
+    <script >
+
+    </script>
+</body>
+</html>

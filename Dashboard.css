@@ -1,0 +1,94 @@
+/* src/Dashboard.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .dashboard {
+    display: flex;
+    height: 100vh;
+    background-color: #1c1c1e; /* Dark background similar to the screenshot */
+  }
+  
+  .left-panel {
+    flex: 1;
+    background: transparent; /* Keeping left panel empty as per instructions */
+  }
+  
+  .right-panel {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2d2f;
+    border-left: 1px solid #3a3a3c;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #575757;
+  }
+  
+  .content {
+    flex: 1;
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-image {
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gallery-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .gallery-images img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #555;
+  }
+  
